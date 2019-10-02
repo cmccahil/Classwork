@@ -1,0 +1,1 @@
+These are all projects done in Intro to Computer Science in Python.
