@@ -1,0 +1,13 @@
+Sam Chapin and Colin McCahill  worked together on this lab (lab 3).
+
+Questions:
+1. Sam Chapin and Colin McCahill
+2. Our MySolverQueue crashes due to stackoverflow on the bigger mazes because our Queue class uses ArrayLists, which creates inefficiencies.
+3. Our MazeStackSolver is n^2 for Big-O we figured this out because the least efficient part of our code is our nested for loops.
+4. Stack is much superior to Queue because Stack does not require recreating an 2 ArrayLists withing a nested for loop everytime a pop() is called.  Stack, therefore, does not create stackoverflows, while Queue does.
+5. We do not know. we just search for a dead-end, so maybe a dead-end algorithm.
+
+
+We affirm that we have adhered to the Honor Code on this assignment.
+Sam Chapin.  Colin McCahill.
+

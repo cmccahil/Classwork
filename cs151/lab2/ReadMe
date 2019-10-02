@@ -1,0 +1,7 @@
+last number in the first test is 134,210,000. 81.304seconds
+last number in the second test is 18,170,000. It did not terminate(ran it for about a half hour and then gave up)
+
+Both tests slowed down as they neared the end of their memory. The one with more memory took considerably longer(using more memory obviously made it take longer).
+
+I would like to use my first late lab freebie in this assignment.
+"I affirm that I have adhered to the honor code in this assignment."
