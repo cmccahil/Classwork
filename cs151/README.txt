@@ -1,0 +1,1 @@
+These are all projects done in Java emphasizing the learning of data structures.
