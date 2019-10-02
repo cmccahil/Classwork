@@ -1,0 +1,91 @@
+Part 6 
+1. Male: 21790	grep -c 'Male' adult.data
+   Female: 10771  grep -c 'Female' adult.data
+
+2. <=50K: 24720	    grep -c '<=50K' adult.data
+   >50K: 7841	    grep -c '>50K' adult.data
+
+3. White: 27816
+   Black: 3124
+   Asian-Pac-Islander: 1039
+   Amer-Indian-Eskimo: 311 
+   Other: 271
+
+   First I did: cut -d ',' -f 9 adult.data > Races.txt 
+   then for each race I did: grep -c '(Race)' Races.txt
+
+4. White, Male: 19174
+   White, Female: 8642
+   Black, Male: 1569
+   Black, Female: 1555
+   Asian-Pac-Islander, Male: 693
+   Asian-Pac-Islander, Female: 346
+   Amer-Indian-Eskimo, Male: 192
+   Other, Male: 162
+   Amer-Indian-Eskimo, Female: 119
+   Other, Female: 109
+
+   I used the same method for this as part three, just used 9,10 as parameter for cut.
+
+Part 7
+
+1. grep '^[^aeiou]*[aeiou][^aeiou]*$' $WORDS
+
+2. grep 'a.*e.*i.*o.*u' $WORDS
+
+3. grep '^......................$' $WORDS
+
+4. grep -E '(\w{4}).*\1' $WORDS
+
+5. grep -E '(^(\w{3}).*\1$' $WORDS
+
+6. grep -E '^([bcdfghjklmnpqrstvwxyz][aeiou]){3,}$' $WORDS 
+
+7. grep -E '^(\w)(\w)(\w).*\3\2\1$' $WORDS
+
+8. sed -E -e 's/snow fall/summertime/g' -e 's/wind chill/summertime/g' sed.txt
+
+9. sed -n -e '/^computer/,/^science/p' $WORDS 
+
+10. sed -e 's/ teh / the /g' sed.txt
+
+11. sed -E -e 's/^(\w+)(.*) (\w+)$/\3\2 \1/' sed.txt
+
+12. sed -E -n 's/(\w+ ).* \1.*/\1/p' sed.txt
+
+13. sed -E -e 's/(.*)(\/\*)(.*)(\*\/)(.*)/\1\5\/\/\3/' testprogram.c
+
+14. sed -E -n 's/cs 241/CSCI 241/gp' sed.txt
+
+15. sed -E -n 's/[cC][sS][cC]*[iI]*\s*241/CSCI 241/gp' sed.txt
+
+16. sed -E -e 's/(^.{20})(.*)/\1/' sed.txt
+
+17. sed -E -e 's/Th*oma*s* B*\.*\s*Wexler/T-Wex/g' sed.txt
+
+18. sed -E -e 's/([A-Z])\w*\s([A-Z])\w*/\1\2/g' sed.txt
+
+19. sed -E -e 's/([0-9]{3})([0-9]{3})([0-9]{4})/\(\1\)-\2-\3/g' sed.txt
+
+20. wget --quiet -O- http://xkcd.com/ | sed -E -n '/^<div id="comic">/,/<\/div>$/s/.*src="(.*)" title="(.*)" alt.*/Image: http:\1\nTitle: \2/p'
+
+README handin
+
+1. Colin McCahill
+
+2.  testurl.sh - tests if a url is an actual website or not 
+    backup.sh - creates a backup file if timestamp of backup file is older than newer file, or just creates a backup file if none exists
+    diskhog.sh - lists the 5 largest items in current directory in decreasing order of size
+    linecount.sh- reports the total number of lines in all of the files in the current directory (goes throught the files recursively if there is directories in the current directory)
+    gradeit.sh- takes the students diamond/rot128 submission and compares the output of it to the teachers. It will print a statement if the outputs differ
+
+3. (see above)
+
+4. 30-45 minutes each on parts 1-4
+   2-3 hours on Part 5 (overthought it too much, I would make it more clear that the output of the diamond does not need to be exact. This took away a ton of time from me)
+   1 hour for Part 6 
+   About 10 hours for Part 7
+
+5. None that I know of although for Part 6 I wasn't sure if I was supposed to do complete commands or if I could split them up. 
+
+6. Nah 

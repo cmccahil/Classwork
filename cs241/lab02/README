@@ -1,0 +1,23 @@
+1. Colin McCahill 
+2. frequency.c prints the frequencies of a letter in a text file.
+   encode_bits.c prints out the binary version of a text file.
+   decode_bits2.c decodes the binary text file and turns it into characters
+   bits.c contains the functions necessary for the previous 2 functions 
+   getnum.c reads a binary, hexadecimal, octadecimal, or decimal number and returns a long
+   tobinary.c turns whatever version of number there is in a file into binary numbers
+   tohexadecimal.c does this into hexadecimal
+   todecimal.c does this into decimal
+   tooctal.c does this into octadecimal
+   
+3. Someone should use my getnum by using one of the "to" functions and giving it an input.
+   example: ./todecimal < textfile.txt. It signals the validity when it prints the numbers. 
+   If it is not valid it will print an error message. 
+
+4. my makefile refuses to compile decode_bits2.c it is almost there but not quite. Please when grading explain why it does not want to compile decode_bits2.c. As a result of this I will also include decode_bits which is my original file I created that works (except it does not terminate)
+
+6. This program took me about 25 hours to complete this lab. I spent about 18 or 19 of it on getnum and I got stuck at the end trying to fix decode_bits2.c before I ran out of time. Please use one of my late days.
+
+7. "I affirm that I have adhered to the honor code in this assignment."
+
+
+   

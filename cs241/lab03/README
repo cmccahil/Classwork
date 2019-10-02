@@ -1,0 +1,10 @@
+1. Colin McCahill
+
+2. pig translates the input on the command line from English to pig latin.
+   unpig translates the input on the command line from pig latin to English.
+
+3. I had enough time to get everything correct except for the punctuation. I only had a function that removed it at the very end of the word not the beginning. So @#)*$&test!" Would probably not work. However: "test." would print esttay. So essentially it works well enough for the instructions but not for extreme cases. 
+
+4. I estimated I would spend about 5 hours on this program. I spent about 14-15. 
+
+5. "I affirm that I have adhered to the Honor Code in this assignment."

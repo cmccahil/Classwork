@@ -1,0 +1,14 @@
+1. Colin McCahill
+
+2. encode.c encodes lines of texts into a Huffman tree, encodes the paths to each leaf. 
+decode.c takes an encode file and returns it back to the text version. 
+
+3. Bugs: 
+
+-Haven't yet figured out how to free all of the memory on encode.c. When I deleted a Node when making the Huffman tree, I tried to store the deleted node in a temporary value and then free the memory but Valgrind would give me hundreds of errors when I did this and segmentation defaults. 
+
+
+Please provide insight on how to fix this. 
+
+5. Spent about 20-25 hours on this assignment. 
+

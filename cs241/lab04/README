@@ -1,0 +1,13 @@
+1. Colin McCahill 
+This program sorts lines in a text file by -alphabetical order (default)
+-numerical order (-n flag)
+-alphabetical order regardless of capitalization (-f flag)
+-any of these options in reverse order (-r flag)
+
+2. sort.c is the only file. Does all of the sorting
+
+3. mystrtol() I didn't use the second parameter because I didn't see its use. I was able to sort the line without having to use it. 
+
+4. I took about 10-12 hours on this lab. I did better on this one than the past two for some reason. I think I am getting better at debugging. Plus Roberto helped me with the main bug. 
+
+5. "I affirm that I have adhered to the honor code on this project."

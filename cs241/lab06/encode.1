@@ -1,0 +1,16 @@
+.\" Man Page for encode
+.\" Colin McCahill - Fall 2017
+
+.TH encode 1 "19 November 2017" "CSCI 241" "Oberlin College"
+
+.SH DESCRIPTION
+Takes a text file, creates a Huffman tree out of the characters and their frequencies, stores the location in the tree of EOF, stores the location in the tree of every character, and then stores the EOF location one more time. This storage is in the form of bits. After storing the characters, the output will be a random chars depending on the bits. 
+
+.SH OPTIONS
+If an output file is specified it will encode to that file. If not it will encode to stdout. 
+
+.SH AUTHOR 
+Colin McCahill (Fall 2017)
+
+.SH BUGS
+Not all of the memory is freed in HuffmanTree() that needs to be, trying to free it in the function gives Valgrind errors and null pointers. 

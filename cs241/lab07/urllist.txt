@@ -1,0 +1,4 @@
+http://cs.oberlin.edu/~ncare/cs241/labs/lab8.html
+https://occs.cs.oberlin.edu/~rhoyle/17s-cs241/assignments/hw02.html
+http://no.such.url
+http://occs.cs.oberlin.edu

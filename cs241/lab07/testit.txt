@@ -1,0 +1,9 @@
+I will print a diamond for you, enter a size between 1-9:     *
+   ***
+  *****
+ *******
+*********
+ *******
+  *****
+   ***
+    *

@@ -1,0 +1,16 @@
+.\" Man Page for decode
+.\" Colin McCahill - Fall 2017
+
+.TH encode 1 "19 November 2017" "CSCI 241" "Oberlin College"
+
+.SH DESCRIPTION
+Takes a file of characters, changes them into bits, creates a Huffman tree out of the bits and stores the correct character at each leaf, stores the location in the tree of EOF, follows the direction of the bits and goes to the correct leaf and prints out the correct character according to the character stored ther, and then stops when it reaches the location of the EOF node. This decoding takes the bits of the encoded characters and changes them back to decoded characters. 
+
+.SH OPTIONS
+If an output file is specified it will decode to that file. If not it will decode to stdout. 
+
+.SH AUTHOR 
+Colin McCahill (Fall 2017)
+
+.SH BUGS
+None that I could find.
