@@ -1,0 +1,13 @@
+#!/bin/sh
+
+IFS=':'
+for dir in $PATH
+do
+    for arg in $@
+    do
+	if [ -e $dir/$arg ]
+	then
+	    echo $dir/$arg
+	fi
+    done
+done

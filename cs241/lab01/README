@@ -1,0 +1,8 @@
+Name: Colin McCahill
+Programs:
+1. Makefile-Compiles the programs.
+2.hello.c - Says "hello world" and prints different numbers. 
+3. rot128 - Encrypts whatever words are passed into it using the rot128 method. Note: rot128 works for the diff test but not for user input
+4. diamond- prints a simple ASCII art diamond of variable size based on user input
+
+"I have adhered to the Honor Code in this assignment"
