@@ -1,0 +1,6 @@
+"label","statuses_count","followers_count","friends_count","favourites_count","listed_count","lang","time_zone","location","is_translator","follow_request_sent","protected","verified","notifications","contributors_enabled","following"
+genuine_account,traditional_spambot,social_spambot,
+1358,24,18,genuine_account
+22,1005,20,traditional_spambot
+26,3,1930,social_spambot
+Accuracy: 0.9743531547889241

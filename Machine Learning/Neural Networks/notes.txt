@@ -1,0 +1,32 @@
+feedback = δo = activation’ * error
+error = y - ŷ
+activation' = σ(net)(1 - σ(net))
+σ(net) = output of a neuron
+ŷ is prediction
+y is actual label
+activation is result of sigmoid function
+
+backpropagation:
+while epochs < 500 && accuracy < 0.99
+    for each instance in training set
+        feed instance through network and calculate activations (activation = output of neuron)
+        calculate feedback for output neuron.
+          we have the numbers from all the math already. now calculate activation' for output neuron
+          calculate error (y - ŷ, ŷ being the decimal prediction, not 0 or 1)
+          multiply activation' * error = feedback
+        calculate feedbacks for hidden layer
+          for each neuron in hidden layer
+            feedback = activation' * weight in output neuron for this hidden neuron * feedback for output neuron
+            for each weight in the hidden neuron
+              weight update = -eta * feedback * (the input for this weight's attribute)
+w0 = w0 - delta-w0
+delta-w0 = -eta * feedback
+
+w_1,0 = w_1 - delta-w_1
+delta-w_1 = -eta * feedback_o * x_1
+
+w_1,1 = old-w_1,1 - delta-w_1,1
+delta-w_1,1 = -eta * feedback_1 * x_1
+
+w_2 = w2 - delta-w_2
+delta-w_2 = -eta * feedback_o * x_2

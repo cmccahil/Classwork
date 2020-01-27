@@ -1,0 +1,7 @@
+genuine_account,traditional_spambot,social_spambot,
+868,7,11,genuine_account
+15,636,2,traditional_spambot
+13,2,1200,social_spambot
+
+Accuracy 98.18%
+Confidence Interval: [.9769,.9868]

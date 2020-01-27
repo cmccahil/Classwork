@@ -1,0 +1,6 @@
+"label","profile_text_color","profile_background_color","profile_link_color","profile_sidebar_fill_color","profile_text_color","statuses_count","followers_count","friends_count","favourites_count","listed_count","lang","time_zone","location","is_translator","follow_request_sent","protected","verified","notifications","contributors_enabled","following"
+genuine_account,traditional_spambot,social_spambot,
+1359,15,26,genuine_account
+17,1023,7,traditional_spambot
+17,8,1934,social_spambot
+Accuracy: 0.9795733091239219
